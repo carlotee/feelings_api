@@ -1,0 +1,82 @@
+[
+    {
+        "tipo": "Apoyo emocional",
+        "mensaje": "No tienes que ser fuerte todo el tiempo. Permítete descansar, sentir y respirar."
+    },
+    {
+        "tipo": "Autocuidado",
+        "mensaje": "Tómate 5 minutos para ti. No importa lo que hagas, solo concéntrate en darte un pequeño alivio."
+    },
+    {
+        "tipo": "Cansancio emocional",
+        "mensaje": "Si te sientes agotado, recuerda que descansar no es rendirse. Es cuidarte."
+    },
+    {
+        "tipo": "Ansiedad",
+        "mensaje": "Inhala por 4 segundos, exhala por 6. Tu cuerpo responde más rápido que tus pensamientos."
+    },
+    {
+        "tipo": "Tristeza",
+        "mensaje": "Llora si lo necesitas. Llorar no te hace débil, te hace humano."
+    },
+    {
+        "tipo": "Soledad",
+        "mensaje": "Escríbele a alguien aunque sea un 'hola'. No tienes que atravesar esto solo."
+    },
+    {
+        "tipo": "Distracción sana",
+        "mensaje": "Mira un video que te haga reír. A veces un pequeño momento cambia el día completo."
+    },
+    {
+        "tipo": "Valor personal",
+        "mensaje": "Lo que estás sintiendo no define quién eres. Tu valor sigue intacto."
+    },
+    {
+        "tipo": "Autoafirmación",
+        "mensaje": "Recuérdate esto: 'Estoy haciendo lo mejor que puedo con lo que tengo hoy'."
+    },
+    {
+        "tipo": "Sobrecarga mental",
+        "mensaje": "Haz una pausa de 1 minuto. No hagas nada. Solo respira y siente tus pies en el suelo."
+    },
+    {
+        "tipo": "Estrés",
+        "mensaje": "Da una caminata de 10 minutos. Un pequeño movimiento cambia mucho."
+    },
+    {
+        "tipo": "Oscuridad emocional",
+        "mensaje": "Aunque hoy se sienta oscuro, no significa que será así para siempre."
+    },
+    {
+        "tipo": "Apego",
+        "mensaje": "Está bien extrañar. Pero también está bien seguir avanzando poco a poco."
+    },
+    {
+        "tipo": "Esperanza",
+        "mensaje": "No necesitas ver todo el camino. Solo el próximo paso."
+    },
+    {
+        "tipo": "Mindfulness",
+        "mensaje": "Mira algo cerca de ti: una taza, una planta, una pared. Describe 3 detalles en silencio."
+    },
+    {
+        "tipo": "Autoestima",
+        "mensaje": "Trátate con la misma amabilidad con la que tratarías a alguien que quieres."
+    },
+    {
+        "tipo": "Desconexión",
+        "mensaje": "Aleja el celular por un rato. Tu mente necesita un respiro del ruido."
+    },
+    {
+        "tipo": "Vulnerabilidad",
+        "mensaje": "Está bien pedir ayuda. No significa que fracasaste, significa que te importas."
+    },
+    {
+        "tipo": "Autoconsuelo",
+        "mensaje": "Haz algo pequeño que te dé un poquito de calma: té, música suave, una ducha tibia."
+    },
+    {
+        "tipo": "Recordatorio humano",
+        "mensaje": "Lo que sientes ahora no es permanente. Y tú no estás solo."
+    }
+]

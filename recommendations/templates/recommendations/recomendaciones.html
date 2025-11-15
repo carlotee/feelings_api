@@ -6,6 +6,43 @@
     <title>Recomendaciones</title>
 </head>
 <body>
-    <h1>Recomendaciones</h1>
+    <h1>¡Bienvenido a la sección de recomendaciones! Aquí encontrarás sugerencias personalizadas para ti!</h1>
+
+    <div class="content-random-recommendations-results">
+        <button class="btn-random-recommendations">
+            Obtener recomendación aleatoria
+        </button>
+
+        <div id="resultado" style="margin-top: 20px; font-size: 18px;"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const boton = document.querySelector(".btn-random-recommendations");
+            const resultadoDiv = document.getElementById("resultado");
+
+            boton.addEventListener("click", async () => {
+                try {
+                    const response = await fetch("fixtures/recomendacones.json"); // tu JSON
+                    const data = await response.json();
+
+                    // elegir una recomendación al azar
+                    const random = data[Math.floor(Math.random() * data.length)];
+
+                    // mostrarla en pantalla
+                    resultadoDiv.innerHTML = `
+                        <h2>${random.nombre}</h2>
+                        <p><strong>Tipo:</strong> ${random.tipo}</p>
+                        <p>${random.descripcion}</p>
+                    `;
+
+                } catch (error) {
+                    resultadoDiv.textContent = "Error cargando las recomendaciones.";
+                    console.error(error);
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
