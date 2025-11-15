@@ -23,13 +23,11 @@
 
             boton.addEventListener("click", async () => {
                 try {
-                    const response = await fetch("fixtures/recomendaciones.json"); // tu JSON
+                    const response = await fetch("fixtures/recomendaciones.json"); 
                     const data = await response.json();
 
-                    // elegir una recomendación al azar
                     const random = data[Math.floor(Math.random() * data.length)];
 
-                    // mostrarla en pantalla
                     resultadoDiv.innerHTML = `
                         <h2>${random.nombre}</h2>
                         <p><strong>Tipo:</strong> ${random.tipo}</p>
